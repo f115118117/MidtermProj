@@ -1,0 +1,5 @@
+booking_id,card_no,room_id,days_from_today,slot,people,status
+RB001,LC1002,R101,1,13:00-15:00,3,booked
+RB002,LC1004,R201,1,09:00-11:00,8,booked
+RB003,LC1005,R102,2,15:00-17:00,4,booked
+RB004,LC1003,R101,2,09:00-11:00,2,cancelled
