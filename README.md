@@ -46,8 +46,8 @@ library_rules/*.md      The library rule book used for RAG (7 documents)
 1. Install Python 3.10 or newer.
 2. Download this project and open a console in its folder:
    ```bash
-   git clone https://github.com/<your-account>/library-helpdesk.git
-   cd library-helpdesk
+   git clone https://github.com/f115118117/MidtermProj.git
+   cd MidtermProj
    ```
 3. (Recommended) Make a virtual environment:
    ```bash
@@ -60,7 +60,7 @@ library_rules/*.md      The library rule book used for RAG (7 documents)
    pip install -r requirements.txt
    ```
 5. Copy `.env.example` to `.env` and put your API key after `API_KEY=` and `EMBEDDING_API_KEY=`
-   (I used Google Gemini: get a free key at https://aistudio.google.com/apikey. NKUST AI Hub also works.)
+   (NKUST AI Hub is selected by default; Gemini and Ollama / LM Studio also work).
    **Never upload `.env`.**
 6. Run the app:
    ```bash
